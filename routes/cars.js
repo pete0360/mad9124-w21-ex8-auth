@@ -1,6 +1,7 @@
 import createDebug from 'debug'
 import sanitizeBody from '../middleware/sanitizeBody.js'
-import Car from '../models/Car.js'
+// import Car from '../models/Car.js'
+import {Car} from '../models/index.js'
 import express from 'express'
 
 const debug = createDebug('week8:routes:cars')
